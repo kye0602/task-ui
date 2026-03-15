@@ -1,0 +1,40 @@
+{
+  "name": "task-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "mock-server": "node mock-server/server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "typescript": "^4.9.5",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "ts-node": "^10.9.1"
+  },
+  "proxy": "http://localhost:4000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
